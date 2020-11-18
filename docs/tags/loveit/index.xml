@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>LoveIt - 标签 - Blog My Life</title>
-        <link>https://tailwoodencat.github.io/hugo-loveit-theme/tags/loveit/</link>
+        <link>https://tailwoodencat.github.io/tags/loveit/</link>
         <description>LoveIt - 标签 - Blog My Life</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 16:43:57 &#43;0800</lastBuildDate><atom:link href="https://tailwoodencat.github.io/hugo-loveit-theme/tags/loveit/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 16:43:57 &#43;0800</lastBuildDate><atom:link href="https://tailwoodencat.github.io/tags/loveit/" rel="self" type="application/rss+xml" /><item>
     <title>About site</title>
-    <link>https://tailwoodencat.github.io/hugo-loveit-theme/about/</link>
+    <link>https://tailwoodencat.github.io/about/</link>
     <pubDate>Wed, 18 Nov 2020 16:43:57 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/about/</guid>
+    <guid>https://tailwoodencat.github.io/about/</guid>
     <description><![CDATA[English README | 简体中文说明
  LoveIt is a clean, elegant but advanced blog theme for Hugo.
  It is based on the original LeaveIt Theme and KeepIt Theme.
