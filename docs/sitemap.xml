@@ -2,19 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://tailwoodencat.github.io/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/categories/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/hugo/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/posts/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/txt/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/categories/txt/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/posts/2020/11/18/txt-url/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/posts/2020/11/18/txt-base/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/test/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/categories/test/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/posts/2020/11/18/test-code/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/about/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/about/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/tags/loveit/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://tailwoodencat.github.io/posts/2020/11/18/test-image-assets/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/categories/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/hugo/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/posts/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/txt/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/categories/txt/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-url/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-base/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/test/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/categories/test/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/test-code/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/about/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/about/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/tags/loveit/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/test-image-assets/</loc><lastmod>2020-11-18T17:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
