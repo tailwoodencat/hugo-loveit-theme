@@ -16,11 +16,100 @@ enableGitInfo = true
 enableEmoji = true
 
 [languages]
-  [languages.zh-cn]
+  [languages.en]
     weight = 2
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 12
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # 菜单配置
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        pre = ""
+        post = ""
+        name = "Home"
+        url = "/"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "AllPosts"
+        url = "/posts/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "AllTags"
+        url = "/tags/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "AllCategories"
+        url = "/categories/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/sinlov"
+        title = "GitHub"
+        weight = 6
+    [languages.en.params]
+      description = "life is short just do it!"
+      keywords = ["Github" ,"Linux","HUGO","Tutorial","Technology"]
+      [languages.en.params.app]
+        title = ""
+        noFavicon = false
+        svgFavicon = ""
+        themeColor = "#ffffff"
+        iconColor = "#5bbad5"
+        tileColor = "#da532c"
+      # 主页信息设置
+      [languages.en.params.home]
+        rss = 10
+        # 主页个人信息
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "images/avatar.png"
+          title = "" #zhaoqiang's blog
+          subtitle = "life is short just do it!"
+          typeit = true
+          social = true
+          disclaimer = ""
+        # 主页文章列表
+        [languages.en.params.home.posts]
+          enable = true
+          paginate = 6
+      [languages.en.params.social]
+        GitHub = "sinlov"
+        Email = "sinlovgmppt@gmail.com"
+        Bilibili = "474553042"
+        RSS = true
+  [languages.zh-cn]
+    weight = 1
     languageCode = "zh-CN"
     languageName = "简体中文"
-    hasCJKLanguage = false
+    hasCJKLanguage = true
     paginate = 12
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
@@ -75,7 +164,7 @@ enableEmoji = true
         weight = 6
     [languages.zh-cn.params]
       description = "life is short just do it!"
-      keywords = ["Dynamics AX", "Github" ,"Linux", "Synology","HUGO","Tutorial","Technology"]
+      keywords = ["Github" ,"Linux","HUGO","Tutorial","Technology"]
       [languages.zh-cn.params.app]
         title = ""
         noFavicon = false
@@ -524,7 +613,7 @@ enableEmoji = true
 
 # 作者配置
 [author]
-  name = "xxxx"
+  name = "sinlov"
   email = ""
   link = ""
 
@@ -536,8 +625,9 @@ enableEmoji = true
 
 # Permalinks 配置
 [Permalinks]
-  # posts = ":year/:month/:filename"
+  posts = "/posts/:year/:month/:day/:filename"
   # posts = ":filename"
+  # posts = "/posts/:filename"
 
 # 隐私信息配置
 [privacy]

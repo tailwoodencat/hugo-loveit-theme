@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Blog My Life</title>
+        <link>https://tailwoodencat.github.io/hugo-loveit-theme/en/</link>
+        <description>life is short just do it!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 17:37:54 &#43;0800</lastBuildDate>
+            <atom:link href="https://tailwoodencat.github.io/hugo-loveit-theme/en/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>txt base</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/en/posts/2020/11/18/txt-base/</link>
+    <pubDate>Wed, 18 Nov 2020 17:37:54 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/en/posts/2020/11/18/txt-base/</guid>
+    <description><![CDATA[TODO]]></description>
+</item></channel>
+</rss>
