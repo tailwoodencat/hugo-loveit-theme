@@ -29,6 +29,7 @@ cleanGithubPages:
 
 githubPages: cleanGithubPages
 	hugo -d ${ENV_HUGO_GITHUB_PAGES}
+	cp static/favicon.ico ${ENV_HUGO_GITHUB_PAGES}
 
 uglifyjs:
 	npm install uglifyjs-folder -g
