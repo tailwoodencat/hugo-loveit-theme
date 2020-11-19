@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -d docs"
+  command = "hugo --gc --minify -d docs --baseUrl https://tailwoodencat-hugo-loveit-theme.netlify.app"
 
 [build.environment]
   HUGO_VERSION = "0.78.2"
