@@ -2,6 +2,7 @@
 ENV_VERSION = 1.0.0
 ENV_HUGO_BASE_URL ?= http://spf13.com/
 ENV_HUGO_PORT ?= 51313
+ENV_HUGO_DESTINATION_PATH ?= public
 ENV_HUGO_GITHUB_PAGES ?= docs
 
 utils:
@@ -42,6 +43,16 @@ destination: cleanDestinationPath
 
 uglifyjs:
 	uglifyjs-folder dev/js/ -o assets/js/index.min.js
+
+cleanGithubPages:	cleanDestinationPath:
+	@if [ -d ${ENV_HUGO_GITHUB_PAGES} ]; \
+	then rm -rf ${ENV_HUGO_GITHUB_PAGES} && echo "~> cleaned ${ENV_HUGO_GITHUB_PAGES}"; \
+	else echo "~> has cleaned ${ENV_HUGO_GITHUB_PAGES}"; \
+	fi
+
+githubPages: cleanGithubPages
+	hugo -d ${ENV_HUGO_GITHUB_PAGES}
+	cp static/favicon.ico ${ENV_HUGO_GITHUB_PAGES}
 
 help: printInfo
 	@echo "Help of task"
