@@ -44,7 +44,7 @@ destination: cleanDestinationPath
 uglifyjs:
 	uglifyjs-folder dev/js/ -o assets/js/index.min.js
 
-cleanGithubPages:	cleanDestinationPath:
+cleanGithubPages:
 	@if [ -d ${ENV_HUGO_GITHUB_PAGES} ]; \
 	then rm -rf ${ENV_HUGO_GITHUB_PAGES} && echo "~> cleaned ${ENV_HUGO_GITHUB_PAGES}"; \
 	else echo "~> has cleaned ${ENV_HUGO_GITHUB_PAGES}"; \

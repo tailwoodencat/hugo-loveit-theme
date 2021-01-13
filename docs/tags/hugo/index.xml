@@ -16,14 +16,15 @@
     <pubDate>Wed, 18 Nov 2020 17:37:54 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-base/</guid>
-    <description><![CDATA[TODO]]></description>
+    <description><![CDATA[<h1 id="markdown-基本语法">Markdown 基本语法</h1>
+<p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
 </item><item>
     <title>test code</title>
     <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/test-code/</link>
     <pubDate>Wed, 18 Nov 2020 17:36:07 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/test-code/</guid>
-    <description><![CDATA[TODO]]></description>
+    <description><![CDATA[精度问题 1 2 3 4 5 6 7 x := 74.96 y := 20.48 b := x - y fmt.Println(b) //output: 54.47999999999999 var a = 0.6 fmt.Println(a + 0.7) //output: 1.2999999999999998 出现浮点数不精确的原因是，浮点数储存至内存中时，2的-1、-2……-n次]]></description>
 </item><item>
     <title>test image assets</title>
     <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/test-image-assets/</link>
