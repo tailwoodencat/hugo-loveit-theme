@@ -7,6 +7,7 @@ categories: [test]
 tags: [test, hugo]
 toc:
   enable: true
+  auto: false
 code:
   copy: true
 math:
