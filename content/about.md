@@ -6,7 +6,6 @@ categories: []
 tags: [about, LoveIt]
 toc:
   enable: true
-  auto: false
 code:
   copy: true
 math:
