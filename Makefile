@@ -4,6 +4,7 @@ ENV_HUGO_BASE_URL ?= http://spf13.com/
 ENV_HUGO_PORT ?= 51313
 ENV_HUGO_DESTINATION_PATH ?= public
 ENV_HUGO_GITHUB_PAGES ?= docs
+ENV_HUGO_GITHUB_BASE_URL ?= https://tailwoodencat.github.io/hugo-loveit-theme/
 
 utils:
 	@echo "install hugo see documentation: https://gohugo.io/getting-started/installing/"
@@ -51,7 +52,7 @@ cleanGithubPages:
 	fi
 
 githubPages: cleanGithubPages
-	hugo -d ${ENV_HUGO_GITHUB_PAGES}
+	hugo -d ${ENV_HUGO_GITHUB_PAGES} --baseUrl ${ENV_HUGO_GITHUB_BASE_URL}
 	cp static/favicon.ico ${ENV_HUGO_GITHUB_PAGES}
 
 help: printInfo
