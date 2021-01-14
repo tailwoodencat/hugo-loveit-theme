@@ -1,8 +1,10 @@
 .PHONY: dist test build
 ENV_VERSION = 1.0.0
-ENV_HUGO_BASE_URL ?= http://localhost/hugo-loveit-theme/
+ENV_HUGO_BASE_CONFIG ?= config.toml
+ENV_HUGO_BASE_URL ?= http://localhost/
 ENV_HUGO_PORT ?= 51313
 ENV_HUGO_DESTINATION_PATH ?= public
+ENV_HUGO_GITHUB_CONFIG ?= github-io.toml
 ENV_HUGO_GITHUB_PAGES ?= docs
 ENV_HUGO_GITHUB_BASE_URL ?= https://tailwoodencat.github.io/hugo-loveit-theme/
 
@@ -26,7 +28,7 @@ init:
 	git submodule update
 
 debug:
-	hugo serve --disableFastRender --buildDrafts --port ${ENV_HUGO_PORT} --baseURL=${ENV_HUGO_BASE_URL}
+	hugo serve --disableFastRender --buildDrafts --port ${ENV_HUGO_PORT} --baseURL=${ENV_HUGO_BASE_URL} --config ${ENV_HUGO_BASE_CONFIG}
 	# hugo serve --disableFastRender --buildDrafts --port ${ENV_HUGO_PORT}
 
 build:
@@ -53,7 +55,7 @@ cleanGithubPages:
 	fi
 
 githubPages: cleanGithubPages
-	hugo -d ${ENV_HUGO_GITHUB_PAGES} --baseUrl ${ENV_HUGO_GITHUB_BASE_URL}
+	hugo -d ${ENV_HUGO_GITHUB_PAGES} --baseUrl ${ENV_HUGO_GITHUB_BASE_URL} --config ${ENV_HUGO_GITHUB_CONFIG}
 	cp static/favicon.ico ${ENV_HUGO_GITHUB_PAGES}
 
 help: printInfo
