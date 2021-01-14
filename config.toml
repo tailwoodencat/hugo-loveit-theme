@@ -70,7 +70,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/sinlov"
+        url = "https://github.com/tailwoodencat"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -159,7 +159,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/sinlov"
+        url = "https://github.com/tailwoodencat"
         title = "GitHub"
         weight = 6
     [languages.zh-cn.params]
@@ -262,7 +262,7 @@ enableEmoji = true
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "sinlov's blog"
+      name = "tailwoodencat's blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -614,7 +614,7 @@ enableEmoji = true
 
 # 作者配置
 [author]
-  name = "sinlov"
+  name = "tailwoodencat"
   email = ""
   link = ""
 
