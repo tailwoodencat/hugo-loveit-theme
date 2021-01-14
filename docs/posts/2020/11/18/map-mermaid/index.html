@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/tailwoodencat.github.io\/hugo-loveit-theme\/posts\/2020\/11\/18\/map-mermaid\/"
-        },"genre": "posts","keywords": "txt, hugo","wordcount":  128 ,
+        },"genre": "posts","keywords": "txt, hugo","wordcount":  114 ,
         "url": "https:\/\/tailwoodencat.github.io\/hugo-loveit-theme\/posts\/2020\/11\/18\/map-mermaid\/","datePublished": "2020-11-18T22:38:00+08:00","dateModified": "2021-01-14T12:29:10+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -110,7 +110,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">map mermaid</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/hugo-loveit-theme/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>tailwoodencat</a></span>&nbsp;<span class="post-category">收录于 <a href="/hugo-loveit-theme/categories/txt/"><i class="far fa-folder fa-fw"></i>txt</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-18">2020-11-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 128 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-18">2020-11-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 114 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -121,6 +121,7 @@
   <ul>
     <li>
       <ul>
+        <li><a href="#documentation">documentation</a></li>
         <li><a href="#base">base</a>
           <ul>
             <li><a href="#lines">lines</a></li>
@@ -130,7 +131,12 @@
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="base">base</h2>
+            </div><div class="content" id="content"><h2 id="documentation">documentation</h2>
+<p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreffer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.</p>
+<blockquote>
+<p>tips: must open <code>math: true</code></p>
+</blockquote>
+<h2 id="base">base</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -139,35 +145,20 @@
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-    A[Start] --&gt; B{Is it?};
-    B -- Yes --&gt; C[OK];
-    C --&gt; D[Rethink];
-    D --&gt; B;
-    B -- No ----&gt; E[End];
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-    A[Start] --&gt; B{Is it?};
-    B -- Yes --&gt; C[OK];
-    C --&gt; D[Rethink];
-    D --&gt; B;
-    B -- No ----&gt; E[End];
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="lines">lines</h3>
+</div><div class="mermaid" id="id-1"></div>
+<h3 id="lines">lines</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -181,9 +172,12 @@
 </span><span class="lnt"> 9
 </span><span class="lnt">10
 </span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph LR
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+graph LR
    Arrow-Start--&gt;Arrow-End;
    Beta:Multi-Start &lt;--&gt; Beta:Multi-End;
    open-link---next-link;
@@ -194,37 +188,11 @@
    Dotted-link-text-Start-.-&gt;|line txt|Dotted-link-text-End;
    Thick-link-Start==&gt;Thick-link-End;
    Thick-link-text-Start== line txt ==&gt;Thick-link-text-End;
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph LR
-   Arrow-Start--&gt;Arrow-End;
-   Beta:Multi-Start &lt;--&gt; Beta:Multi-End;
-   open-link---next-link;
-   text-on---|line txt|link;
-   other-text-on-- line txt !--- other-link;
-   arrow-text-Start--&gt;|line txt|arrow-text-End;
-   Dotted-link-Start-.-&gt;Dotted-link-End;
-   Dotted-link-text-Start-.-&gt;|line txt|Dotted-link-text-End;
-   Thick-link-Start==&gt;Thick-link-End;
-   Thick-link-text-Start== line txt ==&gt;Thick-link-text-End;
-</code></pre></td></tr></table>
-</div>
-</div></div><div class="post-footer" id="post-footer">
+</div><div class="mermaid" id="id-2"></div>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -263,5 +231,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/hugo-loveit-theme/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/hugo-loveit-theme/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"search":{"highlightTag":"em","lunrIndexURL":"/hugo-loveit-theme/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/hugo-loveit-theme/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/hugo-loveit-theme/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/hugo-loveit-theme/lib/katex/katex.min.css"><link rel="stylesheet" href="/hugo-loveit-theme/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/hugo-loveit-theme/lib/mermaid/mermaid.min.css"><link rel="stylesheet" href="/hugo-loveit-theme/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/hugo-loveit-theme/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/katex/katex.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/mermaid/mermaid.min.js"></script><script type="text/javascript" src="/hugo-loveit-theme/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":32},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"graph LR;\n    A[Hard edge] --\u003e|Link text| B(Round edge)\n    B --\u003e C{Decision}\n    C --\u003e|One| D[Result one]\n    C --\u003e|Two| E[Result two]","id-2":"graph LR\n   Arrow-Start--\u003eArrow-End;\n   Beta:Multi-Start \u003c--\u003e Beta:Multi-End;\n   open-link---next-link;\n   text-on---|line txt|link;\n   other-text-on-- line txt !--- other-link;\n   arrow-text-Start--\u003e|line txt|arrow-text-End;\n   Dotted-link-Start-.-\u003eDotted-link-End;\n   Dotted-link-text-Start-.-\u003e|line txt|Dotted-link-text-End;\n   Thick-link-Start==\u003eThick-link-End;\n   Thick-link-text-Start== line txt ==\u003eThick-link-text-End;"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/hugo-loveit-theme/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/hugo-loveit-theme/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/hugo-loveit-theme/js/theme.min.js"></script></body>
 </html>

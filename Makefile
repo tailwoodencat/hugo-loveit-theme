@@ -26,7 +26,8 @@ init:
 	git submodule update
 
 debug:
-	hugo serve --disableFastRender --buildDrafts --baseURL=${ENV_HUGO_BASE_URL} --port ${ENV_HUGO_PORT}
+	hugo serve --disableFastRender --buildDrafts --port ${ENV_HUGO_PORT} --baseURL=${ENV_HUGO_BASE_URL}
+	# hugo serve --disableFastRender --buildDrafts --port ${ENV_HUGO_PORT}
 
 build:
 	hugo

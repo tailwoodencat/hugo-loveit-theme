@@ -23,11 +23,11 @@ enableEmoji = true
     hasCJKLanguage = false
     paginate = 5
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # 菜单配置
+    # 菜单配置 https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu so this will be bug!
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "home"
-        pre = ""
+        pre = "/hugo-loveit-theme/"
         post = ""
         name = "Home"
         url = "/"
@@ -112,7 +112,7 @@ enableEmoji = true
     hasCJKLanguage = true
     paginate = 5
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # 菜单配置
+    # 菜单配置 https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu so this will be bug!
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
         identifier = "home"
@@ -369,7 +369,7 @@ enableEmoji = true
       # 是否显示代码块的复制按钮
       copy = true
       # 默认展开显示的代码行数
-      maxShownLines = 10
+      maxShownLines = 32
     # LoveIt 更改 | 0.2.0 KaTeX 数学公式
     [params.page.math]
       enable = true

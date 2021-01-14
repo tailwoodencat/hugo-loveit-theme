@@ -11,7 +11,7 @@
     <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-mermaid/</guid>
-    <description><![CDATA[base 1 2 3 4 5 6  graph TD A[Start] --&gt; B{Is it?}; B -- Yes --&gt; C[OK]; C --&gt; D[Rethink]; D --&gt; B; B -- No ----&gt; E[End];   1 2 3 4 5 6  graph TD A[Start] --&gt; B{Is it?}; B -- Yes --&gt; C[OK]; C --&gt; D[Rethink]; D --&gt; B; B -- No ----&gt; E[End];   lines 1 2 3 4 5 6 7 8 9 10 11  graph LR Arrow-Start--&gt;Arrow-End; Beta:Multi-Start &lt;--&gt; Beta:Multi-End; open-link---next-link; text-on---|line txt|link; other-text-on-- line txt !]]></description>
+    <description><![CDATA[documentation mermaid 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法. tips: must open math: true base 1 2 3 4 5 6 7 {{&lt; mermaid &gt;}} graph LR; A[Hard edge] --&gt;|Link text| B(Round edge) B --&gt; C{Decision} C --&gt;|One| D[Result one] C --&gt;|Two| E[Result two] {{&lt; /mermaid &gt;}}]]></description>
 </item><item>
     <title>map flow</title>
     <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-flow/</link>
