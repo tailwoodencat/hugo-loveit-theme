@@ -21,7 +21,7 @@ enableEmoji = true
     languageCode = "en"
     languageName = "English"
     hasCJKLanguage = false
-    paginate = 12
+    paginate = 5
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
     [languages.en.menu]
@@ -90,7 +90,7 @@ enableEmoji = true
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "https://cdn.jsdelivr.net/gh/tailwoodencat/CDN@main/uPic/2021/01/14/avatar-DoGrri.png"
           title = "" #zhaoqiang's blog
           subtitle = "life is short just do it!"
           typeit = true
@@ -110,7 +110,7 @@ enableEmoji = true
     languageCode = "zh-CN"
     languageName = "简体中文"
     hasCJKLanguage = true
-    paginate = 12
+    paginate = 5
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
     [languages.zh-cn.menu]
@@ -179,7 +179,7 @@ enableEmoji = true
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "https://cdn.jsdelivr.net/gh/tailwoodencat/CDN@main/uPic/2021/01/14/avatar-DoGrri.png"
           title = "" #zhaoqiang's blog
           subtitle = "life is short just do it!"
           typeit = true
@@ -316,7 +316,7 @@ enableEmoji = true
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      avatarURL = "https://cdn.jsdelivr.net/gh/tailwoodencat/CDN@main/uPic/2021/01/14/avatar-DoGrri.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题

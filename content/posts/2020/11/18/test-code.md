@@ -11,7 +11,7 @@ toc:
 code:
   copy: true
 math:
-  enable: true
+  enable: false
 mapbox:
   accessToken: ""
 share:

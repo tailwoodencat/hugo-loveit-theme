@@ -1,5 +1,5 @@
 ---
-title: "txt base"
+title: "Markdown 基本语法"
 date: 2020-11-18T17:37:54+08:00
 description: "desc txt base"
 draft: false
@@ -11,7 +11,7 @@ toc:
 code:
   copy: true
 math:
-  enable: true
+  enable: false
 mapbox:
   accessToken: ""
 share:

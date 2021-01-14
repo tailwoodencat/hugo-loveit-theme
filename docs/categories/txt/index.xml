@@ -1,21 +1,51 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>txt - 分类 - Blog My Life</title>
-        <link>https://tailwoodencat.github.io/categories/txt/</link>
+        <link>https://tailwoodencat.github.io/hugo-loveit-theme/categories/txt/</link>
         <description>txt - 分类 - Blog My Life</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 17:38:00 &#43;0800</lastBuildDate><atom:link href="https://tailwoodencat.github.io/categories/txt/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</lastBuildDate><atom:link href="https://tailwoodencat.github.io/hugo-loveit-theme/categories/txt/" rel="self" type="application/rss+xml" /><item>
+    <title>map mermaid</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-mermaid/</link>
+    <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-mermaid/</guid>
+    <description><![CDATA[base 1 2 3 4 5 6  graph TD A[Start] --&gt; B{Is it?}; B -- Yes --&gt; C[OK]; C --&gt; D[Rethink]; D --&gt; B; B -- No ----&gt; E[End];   1 2 3 4 5 6  graph TD A[Start] --&gt; B{Is it?}; B -- Yes --&gt; C[OK]; C --&gt; D[Rethink]; D --&gt; B; B -- No ----&gt; E[End];   lines 1 2 3 4 5 6 7 8 9 10 11  graph LR Arrow-Start--&gt;Arrow-End; Beta:Multi-Start &lt;--&gt; Beta:Multi-End; open-link---next-link; text-on---|line txt|link; other-text-on-- line txt !]]></description>
+</item><item>
+    <title>map flow</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-flow/</link>
+    <pubDate>Wed, 18 Nov 2020 22:28:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/map-flow/</guid>
+    <description><![CDATA[flow-demo 1 2 3 4 5 6 7 8 9 10 11  st=&gt;start: Start:&gt;http://www.google.com[blank] e=&gt;end:&gt;http://www.google.com op1=&gt;operation: My Operation sub1=&gt;subroutine: My Subroutine cond=&gt;condition: Yes or No?:&gt;http://www.google.com io=&gt;inputoutput: catch something... st-&gt;op1-&gt;cond cond(yes)-&gt;io-&gt;e cond(no)-&gt;sub1(right)-&gt;op1    flowchart will not show, by markdown render
+ 1 2 3 4 5 6 7 8 9 10 11  st=&gt;start: Start:&gt;http://www.google.com[blank] e=&gt;end:&gt;http://www.google.com op1=&gt;operation: My Operation sub1=&gt;subroutine: My Subroutine cond=&gt;condition: Yes or No?:&gt;http://www.google.com io=&gt;inputoutput: catch something.]]></description>
+</item><item>
+    <title>Markdown Latex</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-latex/</link>
+    <pubDate>Wed, 18 Nov 2020 18:38:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-latex/</guid>
+    <description><![CDATA[上标和下标 1 2 $$A_{222} $$ $$A^{333} $$ 展现为 $$ A_{222} $$ $$ A^{333} $$ 分数表达 1 $$\frac{x^{2}y^{2}}{x+y} $$ 展示为 $$ \frac{x^{2}y^{2}}{x+y} $$ 三角函数 1 $$\cos2\theta=cos^2\theta-\sin^2\theta\\=2\cos^2\theta-1$$ 展示为 $$ \cos2\theta = cos^2\theta - \sin^2 \theta \ = 2\cos^2\theta -1 $$ 角标和开方 1 $$c =\sqrt{a^{2}+b_{xy}^{2} +e^{x}} $$ 展示为 $$ c =]]></description>
+</item><item>
+    <title>Emoji 支持</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-emoji/</link>
+    <pubDate>Wed, 18 Nov 2020 17:58:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-emoji/</guid>
+    <description><![CDATA[<h1 id="emoji-支持">Emoji 支持</h1>
+<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
+</item><item>
     <title>txt url</title>
-    <link>https://tailwoodencat.github.io/posts/2020/11/18/txt-url/</link>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-url/</link>
     <pubDate>Wed, 18 Nov 2020 17:38:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://tailwoodencat.github.io/posts/2020/11/18/txt-url/</guid>
-    <description><![CDATA[TODO]]></description>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-url/</guid>
+    <description><![CDATA[image URL 1  ![](https://cdn.jsdelivr.net/gh/tailwoodencat/CDN@main/uPic/2021/01/14/avatar-DoGrri.png)   ]]></description>
 </item><item>
-    <title>txt base</title>
-    <link>https://tailwoodencat.github.io/posts/2020/11/18/txt-base/</link>
+    <title>Markdown 基本语法</title>
+    <link>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-base/</link>
     <pubDate>Wed, 18 Nov 2020 17:37:54 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://tailwoodencat.github.io/posts/2020/11/18/txt-base/</guid>
+    <guid>https://tailwoodencat.github.io/hugo-loveit-theme/posts/2020/11/18/txt-base/</guid>
     <description><![CDATA[<h1 id="markdown-基本语法">Markdown 基本语法</h1>
 <p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
 </item></channel>
