@@ -23,8 +23,11 @@ init:
 	@echo "=> this project use hugo more info: https://github.com/gohugoio/hugo"
 	@echo "-> if not install just see https://gohugo.io/getting-started/"
 	hugo version
-	# or use git clone --recurse-submodules
+	$(info or use git clone --recurse-submodules)
 	git submodule init
+	git submodule update
+
+up:
 	git submodule update
 
 debug:
@@ -35,12 +38,10 @@ build:
 	hugo
 
 cleanDestinationPath:
-	@if [ -d ${ENV_HUGO_DESTINATION_PATH} ]; \
-	then rm -rf ${ENV_HUGO_DESTINATION_PATH} && echo "~> cleaned ${ENV_HUGO_DESTINATION_PATH}"; \
-	else echo "~> has cleaned ${ENV_HUGO_DESTINATION_PATH}"; \
-	fi
+	-@RM -r ${ENV_HUGO_DESTINATION_PATH}
+	$(info has clean ${ENV_HUGO_DESTINATION_PATH})
 
-destination: cleanDestinationPath
+destination: cleanDestinationPath up
 	hugo -d ${ENV_HUGO_DESTINATION_PATH} --baseUrl ${ENV_HUGO_BASE_URL} --gc
 	cp static/favicon.ico ${ENV_HUGO_DESTINATION_PATH}
 	cd public && generate-manifest --url=${ENV_HUGO_BASE_URL}
@@ -49,10 +50,8 @@ uglifyjs:
 	uglifyjs-folder dev/js/ -o assets/js/index.min.js
 
 cleanGithubPages:
-	@if [ -d ${ENV_HUGO_GITHUB_PAGES} ]; \
-	then rm -rf ${ENV_HUGO_GITHUB_PAGES} && echo "~> cleaned ${ENV_HUGO_GITHUB_PAGES}"; \
-	else echo "~> has cleaned ${ENV_HUGO_GITHUB_PAGES}"; \
-	fi
+	-@RM -r ${ENV_HUGO_GITHUB_PAGES}
+	$(info has clean ${ENV_HUGO_GITHUB_PAGES})
 
 githubPages: cleanGithubPages
 	hugo -d ${ENV_HUGO_GITHUB_PAGES} --baseUrl ${ENV_HUGO_GITHUB_BASE_URL} --config ${ENV_HUGO_GITHUB_CONFIG}
